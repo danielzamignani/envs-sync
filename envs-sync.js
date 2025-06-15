@@ -3,7 +3,7 @@ const path = require('path');
 
 // Configurações
 const diretoriosIgnorados = ['node_modules', 'dist', '.git', '.vscode', '.env', '.env.example'];
-const padroesParaManter = [];
+const padroesParaManter = ['AAAA'];
 const diretorioRaiz = path.resolve(process.argv[2] || '.');
 const caminhoEnvExample = path.join(diretorioRaiz, '.env.example');
 

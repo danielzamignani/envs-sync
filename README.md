@@ -6,7 +6,7 @@ Garante que todas as variáveis de ambiente usadas na aplicação (`process.env.
 ## Como usar
 
 ```bash
-node sync-env.js [caminho-do-projeto]
+node envs-sync.js [caminho-do-projeto]
 ```
 
 - Se nenhum caminho for informado, o diretório atual (`.`) será usado.
